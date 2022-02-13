@@ -96,18 +96,19 @@ Edit your .config/lxqt/panel.conf file.  Find the "Quicklaunch" section, and cop
 
 Here's what mine looked like before:
 
-[quicklaunch]
+    [quicklaunch]
 
-alignment=Left
-apps\1\desktop=/usr/share/applications/pcmanfm-qt.desktop
-apps\2\desktop=/usr/share/applications/firefox.desktop
-apps\3\desktop=/usr/share/applications/google-chrome.desktop
----> add it here <---
-apps\size=4
-type=quicklaunch
+    alignment=Left
+    apps\1\desktop=/usr/share/applications/pcmanfm-qt.desktop
+    apps\2\desktop=/usr/share/applications/firefox.desktop
+    apps\3\desktop=/usr/share/applications/google-chrome.desktop
+    ---> add it here <---
+    apps\size=4
+    type=quicklaunch
 
 And I added this line where the "add it here" space is:
-apps\4\desktop=/usr/share/applications/working-better.desktop
+
+    apps\4\desktop=/usr/share/applications/working-better.desktop
 
 Save the file.
 
