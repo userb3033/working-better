@@ -1,0 +1,27 @@
+[Desktop Entry]
+Version=1.0
+Name=Working Better
+GenericName=Utility
+Comment=Working BETTER
+
+#NOTE:  You MUST change the path below to point to your working-better.sh script.
+#Currently, this defaults to run for 1 minutes.  I recommend setting it to 1
+#until you have gotten the Shortcut Key working.
+#Trust me.  You want the Shortcut Key.
+#Later, you can set this for whatever you like, but I recommend 10 mins or less.
+#I've toyed with putting working-better.sh into a cron job.  Haven't yet, but it's tempting.
+
+########### CUSTOMIZE ############
+Exec=/path/to/your/working-better.sh 1
+########### END CUSTOMIZE ########
+
+#If you haven't already, please consider making a donation to me at
+
+# https://buymeacoffee.com/userb3033
+
+# Thank you very much in advance for your support. You're fine folk.
+
+StartupNotify=true
+Terminal=false
+Icon=firefox
+Type=Application
