@@ -58,6 +58,10 @@
 
 ################# START OF THE SCRIPT ##########################
 
+#lifts mouse off button so tooltip doesn't say visible
+xdotool mousemove 400 400 
+
+
 #This calculates how long to work, based on ./working-better.sh X, where X is the number of minutes you want it to run.
 #i.e. ./working-better.sh 10
 
@@ -87,7 +91,7 @@ do
 
     #pause 3 secs
     #Don't want to be working TOO much better now, do we!
-    sleep 3
+    sleep 2
 
     #Now the fun part, working BETTER!
     #I've got different things set up for each desktop here.  If you have a different number of desktops,
@@ -98,13 +102,13 @@ do
 	0) xdotool getactivewindow key --clearmodifiers mousemove --window %1 500 500
 	   xdotool click 5 click 5 click 5 click 4 click 5 click 5 click 4 click 4 click 5 click 5 click 5 click 4 click 4 click 4 click 5 click 4 click 5 click 4 click 4 click 5 click 4 click 5 click 4 click 4
 	   #take a break
-	   yawn=$(shuf -i 1-5 -n 1)
+	   yawn=$(shuf -i 1-4 -n 1)
 	   sleep $yawn
 	   xdotool click 5 click 5 click 5 click 4 click 5 click 5 click 4 click 4 click 5 click 5 click 5 click 4 click 4 click 4 click 5 click 4 click 5 click 4 click 4 click 5 click 4 click 5 click 4 click 4;;
 	    
 	    
 	1)  #take a break
-	    yawn=$(shuf -i 1-10 -n 1)
+	    yawn=$(shuf -i 1-5 -n 1)
 	    sleep $yawn
 	    xdotool getactivewindow key --clearmodifiers mousemove --window %1 400 400
 	    scroll=$(shuf -i 1-20 -n 1)
@@ -112,8 +116,8 @@ do
 	    do
 		updown=$(shuf -i 0-1 -n 1)
 		case $updown in
-		    0) xdotool click 5 click 5 click 5 click 4 click 4;;
-		    1) xdotool click 4 click 4 click 4 click 5 click 4;;
+		    0) xdotool click 5 click 5 click 5 click 4 click 4 click 5 click 5 click 5 click 4 click 4 click 5 click 5 click 5 click 4 click 4 click 5 click 5 click 5 click 4 click 4;;
+		    1) xdotool click 4 click 4 click 4 click 5 click 4 click 4 click 4 click 4 click 5 click 4 click 4 click 4 click 4 click 5 click 4 click 4 click 4 click 4 click 5 click 4;;
 		esac
 	    done
 	  ;;
@@ -152,7 +156,7 @@ do
 
 	    ipsum=$(shuf -i 0-19 -n 1)
 	    xdotool getactivewindow key --clearmodifiers ctrl+l
-	    xdotool type "${lorem[$ipsum]}"
+	    xdotool type --delay 25 "${lorem[$ipsum]}"
 
 	    #take a time to look over these search results!
 	    yawn=$(shuf -i 1-6 -n 1)
