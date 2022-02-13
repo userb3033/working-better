@@ -97,6 +97,7 @@ Edit your .config/lxqt/panel.conf file.  Find the "Quicklaunch" section, and cop
 Here's what mine looked like before:
 
 [quicklaunch]
+
 alignment=Left
 apps\1\desktop=/usr/share/applications/pcmanfm-qt.desktop
 apps\2\desktop=/usr/share/applications/firefox.desktop
