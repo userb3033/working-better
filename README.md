@@ -43,7 +43,7 @@ But it's a nifty little script, and if it gives you peace of mind on that Monday
 consider making a donation or buying me a coffee.  I am not a programmer, just a guy like you who got fed up with feeling
 like I can't even go to the bathroom anymore.
 
-Donate:  https://buymeacoffee/userb3033
+Donate:  https://buymeacoffee.com/userb3033
 License:  GNU General Public License v3.0
 
 THANK YOU!
