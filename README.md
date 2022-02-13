@@ -1,57 +1,57 @@
-# working-better
+working-better
 Don't just work hard, work BETTER!
 
 README, aka the MANIFESTO:
 
-#Please read.  There's important stuff here, and it's also got a bit of humor.
+Please read.  There's important stuff here, and it's also got a bit of humor.
 
-#This script is for those of you working remotely or perhaps not, with screen monitoring software in place which tracks your
-#productivity and ridiculously docks you for things like going to the bathroom, having a quick chat with a co-worker
-#grabbing a cup of coffee, or so on.  Some even take screenshots at random times.  The moment there's no "activity," your "score"
-#drops. Heaven forbid, changing a diaper takes longer than you thought and suddenly your screensaver comes on,  and then your boss
-#is breathing down your neck because you weren't working hard enough.
+This script is for those of you working remotely or perhaps not, with screen monitoring software in place which tracks your
+productivity and ridiculously docks you for things like going to the bathroom, having a quick chat with a co-worker
+grabbing a cup of coffee, or so on.  Some even take screenshots at random times.  The moment there's no "activity," your "score"
+drops. Heaven forbid, changing a diaper takes longer than you thought and suddenly your screensaver comes on,  and then your boss
+is breathing down your neck because you weren't working hard enough.
 
-#Why this is allowed in the USA, a supposedly "free" country, is beyond me, but that's a different fight.
+Why this is allowed in the USA, a supposedly "free" country, is beyond me, but that's a different fight.
 
-#In the meantime, until employers realize how shitty they are or until this stuff is made illegal, let me introduce Working BETTER!  (You're not
-#just working hard, you're Working BETTER!)
+In the meantime, until employers realize how shitty they are or until this stuff is made illegal, let me introduce Working BETTER!  (You're not
+just working hard, you're Working BETTER!)
 
-#It will diddle the mouse, switch virtual desktops, type in search words for you, and do stuff to ensure you're still working hard...even
-#if you're grabbing that cup of coffee, changing that diaper, or god forbid, texting on your phone. It can't yet file TPS reports for you,
-#but it will mind your system unattended for a bit while you go to the john.
+It will diddle the mouse, switch virtual desktops, type in search words for you, and do stuff to ensure you're still working hard...even
+if you're grabbing that cup of coffee, changing that diaper, or god forbid, texting on your phone. It can't yet file TPS reports for you,
+but it will mind your system unattended for a bit while you go to the john.
 
-#USING WORKING-BETTER.SH
+USING WORKING-BETTER.SH
 
-#It is almost ready to go out of the box but please take a moment to check through everything, as there are a few
-#spots that you will need to customize, marked with ############# CUSTOMIZE #############.  There is also a README file.
+It is almost ready to go out of the box but please take a moment to check through everything, as there are a few
+spots that you will need to customize, marked with ############# CUSTOMIZE #############.  There is also a README file.
 
-#To run, just copy it to a location, use "chmod +x working-better.sh" to make it executable, and run either by the Quicklauncher method
-#I describe in the README.txt or just run at the command line, with "./working-better.sh X" where X is the number of minutes you want it to run.
+To run, just copy it to a location, use "chmod +x working-better.sh" to make it executable, and run either by the Quicklauncher method
+I describe in the README.txt or just run at the command line, with "./working-better.sh X" where X is the number of minutes you want it to run.
 
-#I prefer the Quicklaunch because in my case, screenshots are being taken and I don't want my boss wondering why I'm typing "./working-better.sh" if
-#a random screenshot happens when I'm about to run it.  With the Quicklaunch, it's nicely hidden behind an innocuous toolbar icon, and you just click.
+I prefer the Quicklaunch because in my case, screenshots are being taken and I don't want my boss wondering why I'm typing "./working-better.sh" if
+a random screenshot happens when I'm about to run it.  With the Quicklaunch, it's nicely hidden behind an innocuous toolbar icon, and you just click.
 
-#Be warned, once it's going, it really takes over and it's hard to do anything until it finishes.  So don't run it
-#for an hour at a time if you might need to actually work on your computer.  And while it will diddle the mouse and keep your productivity SCORE up
-#your real productivity may be lacking, so I accept no responsibility if using this gets you reprimanded or fired. This README has additional info
-#about steps I've taken to keep this discreet below, but I'm sure your boss will take a dim view of you running this.
+Be warned, once it's going, it really takes over and it's hard to do anything until it finishes.  So don't run it
+for an hour at a time if you might need to actually work on your computer.  And while it will diddle the mouse and keep your productivity SCORE up
+your real productivity may be lacking, so I accept no responsibility if using this gets you reprimanded or fired. This README has additional info
+about steps I've taken to keep this discreet below, but I'm sure your boss will take a dim view of you running this.
 
-#So again: Buyer beware. This is at your
-#own risk. And remember to remove it if you're returning a work computer.  "rm working-better.sh" is your friend.
+So again: Buyer beware. This is at your
+own risk. And remember to remove it if you're returning a work computer.  "rm working-better.sh" is your friend.
 
-#But it's a nifty little script, and if it gives you peace of mind on that Monday morning when you're just trying to get through the day...PLEASE
-#consider making a donation or buying me a coffee.  I am not a programmer, just a guy like you who got fed up with feeling
-#like I can't even go to the bathroom anymore.
+But it's a nifty little script, and if it gives you peace of mind on that Monday morning when you're just trying to get through the day...PLEASE
+consider making a donation or buying me a coffee.  I am not a programmer, just a guy like you who got fed up with feeling
+like I can't even go to the bathroom anymore.
 
-#Donate:  https://buymeacoffee/userb3033
-#License:  GNU General Public License v3.0
+Donate:  https://buymeacoffee/userb3033
+License:  GNU General Public License v3.0
 
-#THANK YOU!
+THANK YOU!
 
-#NOTE:  If you have Lubuntu, I've been able to make a Shortcut key work to interrupt the program with a lone keystroke. I assume it's doable for other
-#systems as well, but you're on your own there.  I highly recommend enabling that as well, since it is hard to stop once it's going.
+NOTE:  If you have Lubuntu, I've been able to make a Shortcut key work to interrupt the program with a lone keystroke. I assume it's doable for other
+systems as well, but you're on your own there.  I highly recommend enabling that as well, since it is hard to stop once it's going.
 
-#So without further ado, let's start working BETTER!
+So without further ado, let's start working BETTER!
 
 ################# END OF THE MANIFESTO #########################
 
@@ -112,3 +112,7 @@ Go to your Application launcher > Preferences > LXQt Settings > Shortcut Keys > 
 Log out and back in.  You should see your new quicklaunch icon sitting there, and if you click it, you'll see you're Working BETTER already.  To stop, hit the Shortcut key.
 
 As I mention in the program itself, this will diddle the mouse and such, but it won't actually do any real work for you.  You could even be fired.  So use this entirely at your own risk, with no guarantee or warranty.  Use of this program constitutes acceptance of these listed risks and risks that may be unspecified.
+
+Again, if you're able to send thanks in the form of a "cup of coffee" you'll be raising your karma points bigtime:
+
+https://buymeacoffee.com/userb3033
